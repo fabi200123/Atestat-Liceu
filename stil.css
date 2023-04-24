@@ -1,0 +1,71 @@
+body{
+    background:url(imagini/pattern.jpg);
+}
+#header{
+    position:relative;
+    width:1024px;
+    height:260px;
+    top:20px;
+}
+#imagine_header{
+    position:absolute;
+    top:0;
+    left:0;
+    width:1024px;
+    height:210px;
+    background:url(imagini/banner.jpg);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#meniu{
+    position:absolute;
+    top:230px;
+    left:0;
+    width:1004px;
+    height:35px;
+    background:#333300;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-top:15px;
+    padding-left:20px;
+    text-align:center;
+}
+#meniu a{
+    font-family: "Arial", sans-serif;
+    color:#fff;
+    font-size:15px;
+    text-decoration:none;
+}
+#meniu a:hover{
+    color:#999;
+}
+#meniu td{
+    padding-right:20px;
+}
+#continut{
+    position:relative;
+    width:984px;
+    height:600px;
+    background:#fff;
+    box-shadow:0 0 3px #999;
+    border-radius:5px 5px 0px 0px;
+    padding:20px;
+    top:70px;
+}
+#footer{
+    background:#333300;
+    border-radius:0px 0px 10px 5px;
+  
+    position:relative;
+    width:1024px;
+    height:50px;
+    top:70px;
+    color:rgb(252, 252, 252);
+    font-family: "Arial", sans-serif;
+}
+#frame{
+    position:relative;
+    width:100%;
+    height:100%;
+    border:none;
+}
